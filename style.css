@@ -1,0 +1,116 @@
+body {
+    background-image: linear-gradient(rgb(154, 0, 220), rgb(0, 0, 102));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 60%;
+    min-height: 75vh;
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    padding: 3% 5%;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.bs-item {
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.question {
+    padding: 30px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: -5px 7px 7px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.question h1 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.answer {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: -5px 7px 7px rgba(30, 30, 30, 0.25);
+    margin-bottom: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.answer.my {
+    background-color: rgba(146, 201, 255, 0.75);
+}
+
+.answer:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+    transform: scale(1.05);
+}
+
+.answer.my:hover {
+    background-color: rgba(146, 201, 255, 0.85);
+}
+
+.question:hover {
+    border-color: white;
+}
+
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 7px 35px rgba(30, 30, 30, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
