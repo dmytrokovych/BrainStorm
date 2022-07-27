@@ -1,9 +1,12 @@
+/* rgb(255, 33, 140) */
+
 body {
     background-image: linear-gradient(rgb(154, 0, 220), rgb(0, 0, 102));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
