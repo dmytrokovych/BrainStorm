@@ -1,17 +1,17 @@
 VanillaTilt.init(document.querySelectorAll(".question"), {
   reverse: true, // reverse the tilt direction
-  max: 7, // max tilt rotation (degrees)
+  max: 4, // max tilt rotation (degrees)
 //   startX: 0, // the starting tilt on the X axis, in degrees.
 //   startY: 0, // the starting tilt on the Y axis, in degrees.
 //   perspective: 1000, // Transform perspective, the lower the more extreme the tilt gets.
-  scale: 1.05, // 2 = 200%, 1.5 = 150%, etc..
+  // scale: 1.02, // 2 = 200%, 1.5 = 150%, etc..
   speed: 500, // Speed of the enter/exit transition
 //   transition: true, // Set a transition on enter/exit.
 //   axis: null, // What axis should be disabled. Can be X or Y.
 //   reset: true, // If the tilt effect has to be reset on exit.
 //   easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
-  glare: true, // if it should have a "glare" effect
-  "max-glare": 0.2, // the maximum "glare" opacity (1 = 100%, 0.5 = 50%)
+  // glare: true, // if it should have a "glare" effect
+  // "max-glare": 0.2, // the maximum "glare" opacity (1 = 100%, 0.5 = 50%)
 //   "glare-prerender": false, // false = VanillaTilt creates the glare elements for you, otherwise
 //   // you need to add .js-tilt-glare>.js-tilt-glare-inner by yourself
 //   "mouse-event-element": null, // css-selector or link to HTML-element what will be listen mouse events

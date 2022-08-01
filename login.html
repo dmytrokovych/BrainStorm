@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="login.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap">
 </head>
 <body>
     <div id="particles-js"></div>
@@ -41,14 +42,14 @@
 
     <script>
         const pass_field = document.querySelector('.password');
-        const show_btm = document.querySelector('.fa-eye');
-        show_btm.addEventListener('click', function(){
-            show_btm.classList.add("fa-eye-slash");
+        const show_btn = document.querySelector('.fa-eye');
+        show_btn.addEventListener('click', function(){
+            show_btn.classList.add("fa-eye-slash");
             if (pass_field.type === "password"){
                 pass_field.type = "text";
             }else{
                 pass_field.type = "password";
-                show_btm.classList.remove("fa-eye-slash");
+                show_btn.classList.remove("fa-eye-slash");
             }
         });
     </script>
